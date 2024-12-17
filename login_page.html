@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <link rel="stylesheet" href="login_page.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Login</h2>
+        <form action="#" method="post">
+          <label for="username">Username</label>
+          <input  onchange=" login()"   type="text" id="username" name="username" placeholder="Enter your username">
+    
+          <label for="password">Password</label>
+          <input onchange="login()"       type="password" id="password" name="password" placeholder="Enter your password">
+    
+          <input type="submit" value="Login" id="submit" onclick="login()">
+        </form>
+      </div>
+      <script src="login_page.js"></script>
+</body>
+</html>
